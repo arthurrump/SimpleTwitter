@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
+    <Authors>Arthur Rump</Authors>
+    <Company>Arthur Rump</Company>
+    <Description>A very simple library for Twitter, intended for usage in the C# for fun course.
+
+You should not use this library for any production application.</Description>
+    <Copyright>Copyright 2017 Arthur Rump</Copyright>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/arthurrump/SimpleTwitter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/arthurrump/SimpleTwitter.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>twitter, csharpforfun</PackageTags>
+    <PackageLicenseUrl>https://github.com/arthurrump/SimpleTwitter/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
