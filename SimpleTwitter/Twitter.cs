@@ -27,7 +27,14 @@ namespace SimpleTwitter
             if (!Auth.Credentials.AreSetupForApplicationAuthentication())
                 throw new InvalidOperationException($"You are not authenticated. Please call {nameof(Authenticate)} first.");
 
-            return func();
+            try
+            {
+                return func();
+            }
+            catch
+            {
+                return default(T);
+            }
         }
     }
 }
